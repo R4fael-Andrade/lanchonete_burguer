@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    max-width: 95%;
+}
+
+header {
+    background-color: #ff944d;
+    padding: 18px 0;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header .container li {
+    display: inline;
+    margin-left: 10px;
+    color: #000;
+    
+}
+
+header .container a {
+    text-decoration: none;
+    
+}
+
+section .container img {
+    margin: 20px 16px;
+}
+
+section .container h2 {
+    font-size: 32px;
+}
+
+section .container p {
+    font-size: 17px;
+}
+
+#requests .container img {
+    height: 280px;
+    border-radius: 15px;
+}
+
+#requests {
+    width: 100%;
+}
+
+#requests .container {
+    flex-wrap: wrap;
+    max-width: 100%;
+
+    justify-content: space-around;
+}
+
+.card h3 {
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+#requests .card {
+    height: 480px;
+    width: 420px;
+}
+
+#requests .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#contact .container {
+    display: block;
+    text-align: center;
+}
+
+.contact-method form{
+
+    width: 30%;
+    height: auto;
+    align-items: center;
+    
+
+}
+
+.contact-method form input, 
+.contact-method form textarea {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 20px 0;
+}
+
+.contact-method form button {
+    width: 80px;
+    height: 40px;
+    background-color: #ff944d;
+    border: none;
+
+}
+
+.contact-method {
+    display: flex;
+    margin: 16PX 0;
+    justify-content: center;
+}
+
+.contact-method form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contact-method form input:focus,
+.contact-method form textarea:focus {
+    outline-color: #ff944d;
+}
+
+.contact-method form button:hover {
+    cursor: pointer;
+    background-color: #ac551a;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #ff944d;
+    justify-content: center;
+    display: flex;
+}
